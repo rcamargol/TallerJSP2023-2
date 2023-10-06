@@ -1,0 +1,93 @@
+/* Estilos generales */
+.header {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #0F1111;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el formulario */
+#miForm {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para títulos y encabezados */
+center {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para campos de entrada y select */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Nuevo tamaño de fuente */
+}
+
+/* Estilos para botones */
+input[type="submit"] {
+    background-color: #FF9900;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF6600;
+}
+
+/* Estilos para radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos para mensajes de error */
+#mensajeError {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.credit-card-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    display: inline-block; /* Evitar salto de línea */
+}
+
+/* Estilos para el espacio entre los grupos de 4 números */
+.credit-card-input::after {
+    content: " ";
+    display: inline-block;
+    width: 10px; /* Ajusta el ancho del espacio */
+}
+
+/* Estilo adicional si lo deseas (por ejemplo, para ocultar el texto) */
+.credit-card-input:focus {
+    outline: none;
+}
+
+
